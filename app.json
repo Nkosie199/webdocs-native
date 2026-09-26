@@ -2,7 +2,7 @@
   "expo": {
     "name": "webdocs",
     "slug": "webdocs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +18,7 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 1,
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -34,6 +34,7 @@
       "eas": {
         "projectId": "8d981ef4-22fb-4854-973b-4c277c346dd6"
       }
-    }
+    },
+    "newArchEnabled": false
   }
 }
