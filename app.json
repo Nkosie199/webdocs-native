@@ -2,7 +2,7 @@
   "expo": {
     "name": "webdocs",
     "slug": "webdocs",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,13 +18,12 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mynger.webdocs",
-      "edgeToEdgeEnabled": false
+      "package": "com.mynger.webdocs"
     },
     "web": {
       "favicon": "./assets/favicon.png"
