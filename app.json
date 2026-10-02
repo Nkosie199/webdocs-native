@@ -2,14 +2,14 @@
   "expo": {
     "name": "webdocs",
     "slug": "webdocs",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fefefe"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,13 +18,12 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 2,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#fefefe"
       },
-      "package": "com.mynger.webdocs",
-      "edgeToEdgeEnabled": false
+      "package": "com.mynger.webdocs"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +34,17 @@
         "projectId": "8d981ef4-22fb-4854-973b-4c277c346dd6"
       }
     },
-    "newArchEnabled": false
+    "newArchEnabled": false,
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#fefefe",
+          "imageWidth": 200
+        }
+      ]
+    ]
   }
 }
